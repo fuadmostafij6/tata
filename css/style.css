@@ -1,0 +1,344 @@
+.newp {
+  overflow: hidden;
+  position: relative;
+}
+.newp::after {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  margin-left: 1rem;
+  z-index: 1;
+}
+.newp::before {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.newpcf {
+  overflow: hidden;
+  position: relative;
+}
+.newpcf::after {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  margin-left: 1rem;
+  z-index: 1;
+}
+.newpcf::before {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.fd {
+  overflow: hidden;
+  position: relative;
+}
+.fd::after {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  margin-left: 1rem;
+  z-index: 1;
+}
+.fd::before {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.bs {
+  overflow: hidden;
+  position: relative;
+}
+.bs::after {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  right: 33%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.bs::before {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.pyf {
+  overflow: hidden;
+  position: relative;
+}
+.pyf::after {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.pyf::before {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.rb {
+  overflow: hidden;
+  position: relative;
+}
+.rb::after {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+
+  margin-right: 1rem;
+  z-index: 1;
+}
+.rb::before {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  margin-right: 1rem;
+  z-index: 1;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.card-img {
+  width: 350px;
+}
+.bg-cart {
+  background-color: orange;
+  color: #fff;
+}
+
+.bg-cart:hover {
+  background-color: rgb(0, 0, 0);
+}
+.star {
+  color: red;
+}
+a:hover {
+  text-decoration: none;
+}
+.d {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  height: 70vh;
+}
+
+.footer-32892 {
+  background-color: #202126;
+  padding: 7rem 0;
+  color: #888;
+  font-size: 16px;
+}
+.footer-32892,
+.footer-32892 h3 {
+  font-family: "Poppins", sans-serif;
+}
+.footer-32892 h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer-32892 p {
+  font-family: "Source Serif Pro", serif;
+}
+.footer-32892 .row.gallery {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.footer-32892 .row.gallery > [class^="col-"],
+.footer-32892 .row.gallery > [class*=" col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.footer-32892 .gallery a {
+  display: block;
+  margin-bottom: 10px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.footer-32892 .gallery a:hover {
+  opacity: 0.5;
+}
+.footer-32892 .quick-info li {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-32892 .quick-info li a {
+  color: #fff;
+}
+.footer-32892 .quick-info li .icon {
+  font-size: 20px;
+  color: #f88020;
+}
+.footer-32892 .subscribe {
+  position: relative;
+}
+.footer-32892 .subscribe .form-control {
+  background-color: #292b31;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 30px;
+  height: 55px;
+  padding-left: 30px;
+  padding-right: 130px;
+  border: none;
+  color: #fff;
+}
+.footer-32892 .subscribe .form-control::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+.footer-32892 .subscribe .form-control::-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+.footer-32892 .subscribe .form-control:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+.footer-32892 .subscribe .form-control:-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+.footer-32892 .subscribe .btn-submit {
+  background: #f88020;
+  height: 47px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.footer-32892 .tweets li {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-style: italic;
+  font-family: "Source Serif Pro", serif;
+}
+.footer-32892 .tweets li span {
+  color: #fff;
+}
+.footer-32892 .footer-menu-wrap {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem !important;
+  margin-top: 7rem;
+}
+.footer-32892 .footer-menu {
+  margin-bottom: 0;
+}
+.footer-32892 .footer-menu li {
+  display: inline-block;
+}
+@media (max-width: 767.98px) {
+  .footer-32892 .footer-menu li {
+    display: block;
+  }
+}
+.footer-32892 .footer-menu li a {
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .footer-32892 .footer-menu li a {
+    display: block;
+    padding-left: 0px;
+  }
+}
+.footer-32892 .footer-menu li:first-child a {
+  padding-left: 0;
+}
+.footer-32892 .site-logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+.rc {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.blc {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/21/14/53/man-1845814_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+}
